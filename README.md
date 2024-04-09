@@ -1,7 +1,9 @@
 ### Task Manager web application 
 This web application developed using HTML, CSS & Js for front end part and the back-end is built with Node js, Express, and MongoDB Database.
 The application allow users to easily register new tasks, make edits as needed, and delete tasks whenever necessary. 
+
 Link for the web-Application:
+
 https://task-manager-backend-xzes.onrender.com/index.html
 
 ## Main Tab which shows registered tasks
