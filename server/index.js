@@ -6,8 +6,8 @@ const notFound=require('./middleware/not-found')
 require('dotenv').config()
 //midleware 
 app.use(express.json())
-app.use(express.static('./'))
-app.use(express.static('./public'))
+// app.use(express.static('./'))
+app.use(express.static('../public'))
 
 //root routes
 
