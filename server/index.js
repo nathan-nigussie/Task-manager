@@ -1,13 +1,13 @@
-const connectDB=require('../server/db/connect')
+const connectDB=require('./db/connect')
 const express=require('express');
 const app=express();
-const tasks=require('../server/routes/routeTasks')
-const notFound=require('../server/middleware/not-found')
+const tasks=require('./routes/routeTasks')
+const notFound=require('./middleware/not-found')
 require('dotenv').config()
 //midleware 
 app.use(express.json())
 app.use(express.static('./'))
-app.use(express.static('/public'))
+app.use(express.static('./public'))
 
 //root routes
 
