@@ -66,6 +66,7 @@
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
+
 html {
   font-size: 102.5%;
 }
@@ -76,8 +77,8 @@ body {
   font-family: var(--bodyFont);
   font-weight: 400;
   line-height: 1.75;
-}
 
+}
 p {
   margin-bottom: 1.5rem;
   max-width: 40em;
@@ -214,7 +215,7 @@ textarea {
 
 .task-form,
 .single-task-form {
-  width: 90vw;
+  width: 80vw;
   max-width: var(--fixed-width);
   margin: 0 auto;
   margin-top: 6rem;
@@ -331,7 +332,7 @@ form> :last-child {
 }
 .tasks-container {
   width: 100%;
-  width: 90vw;
+  width: 80vw;
   max-width: var(--fixed-width);
   margin: 0 auto;
   margin-top: 2rem;
