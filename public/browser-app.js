@@ -23,7 +23,7 @@ const showTasks=async () => {
       .map((task) => {
 
         const {completed,_id: taskID,name,taskDate}=task
-        date=(new Date(taskDate)).toUTCString()
+          date=(new Date(taskDate)).toLocaleString()
 
 
        return `<div class="single-task ${completed&&'task-completed'}">
