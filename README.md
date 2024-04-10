@@ -14,5 +14,5 @@ https://task-manager-backend-xzes.onrender.com/index.html
 
 ![image](https://github.com/nathan-nigussie/task-manager/assets/91279474/f2836038-6740-4d79-8992-a940a6d21a0c)
 
-# Edited Tasks 
+# Display of Edited Tasks 
 ![image](https://github.com/nathan-nigussie/task-manager/assets/91279474/cebce164-265a-4932-8a91-d9af3f34e1f4)
