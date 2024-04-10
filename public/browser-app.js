@@ -26,10 +26,11 @@ const showTasks=async () => {
         date=(new Date(taskDate)).toUTCString()
 
 
-        return `<div class="single-task ${completed&&'task-completed'}">
-<h5><span><i class="far fa-check-circle"></i></span>${name}</h5></br>
-<h5><span><i class="far fa-check-circle"></i></span>${date}</h5>
+       return `<div class="single-task ${completed&&'task-completed'}">
+<div><h5><span><i class="far fa-check-circle"></i></span>${name}</h5>
+<h5><span><i class="far fa-check-circle"></i></span>${date}</h5> </div>
 <div class="task-links">
+
 
 
 
