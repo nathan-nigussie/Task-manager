@@ -13,6 +13,9 @@ app.use(express.static('./public'));
 app.use('/api/v1/tasks',tasks);
 app.use(notFound);
 
+//new added routes for testing our ec2 instance
+
+
 const port=process.env.PORT||3000;
 
 const start=async () => {
