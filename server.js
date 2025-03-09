@@ -1,8 +1,8 @@
-const connectDB=require('./server/db/connect');
+const connectDB=require('./config/connect');
 const express=require('express');
 const app=express();
-const tasks=require('./server/routes/routeTasks');
-const notFound=require('./server/middleware/not-found');
+const tasks=require('./routes/routeTasks');
+const notFound=require('./middlewares/not-found');
 require('dotenv').config();
 
 // Middleware 
